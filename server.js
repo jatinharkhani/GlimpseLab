@@ -16,7 +16,7 @@ function getMessage() {
   });
 }
 
-// Create server
+// Create Server
 const server = http.createServer(async (req, res) => {
   const parsedUrl = url.parse(req.url, true);
   const { pathname, query } = parsedUrl;
